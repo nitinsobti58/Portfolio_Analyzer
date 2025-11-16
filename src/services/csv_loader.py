@@ -28,7 +28,3 @@ class CSVLoader:
                 model.add_position(position)
         return model
 
-if __name__ == "__main__":
-    model=CSVLoader.load_csv()
-    for x in model.positions:
-        x.toString()
